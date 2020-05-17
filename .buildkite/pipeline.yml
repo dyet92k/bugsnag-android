@@ -81,7 +81,7 @@ steps:
         download: "build/fixture.apk"
       docker-compose#v3.3.0:
         run: android-maze-runner
-        command: ["@features/features_1.txt"]
+        command: ["@features/features_1.txt", "--tags", "~@ignore", "--fail-fast" ]
     env:
       DEVICE_TYPE: "ANDROID_6_0"
       APP_LOCATION: "/app/build/fixture.apk"
@@ -95,7 +95,7 @@ steps:
         download: "build/fixture.apk"
       docker-compose#v3.3.0:
         run: android-maze-runner
-        command: ["@features/features_2.txt"]
+        command: ["@features/features_2.txt", "--tags", "~@ignore", "--fail-fast" ]
     env:
       DEVICE_TYPE: "ANDROID_6_0"
       APP_LOCATION: "/app/build/fixture.apk"
