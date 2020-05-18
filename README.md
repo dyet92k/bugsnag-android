@@ -1,7 +1,7 @@
 # Bugsnag error monitoring & exception reporter for Android
 [![Documentation](https://img.shields.io/badge/documentation-latest-blue.svg)](https://docs.bugsnag.com/platforms/android/)
 [![Build status](https://api.travis-ci.com/bugsnag/bugsnag-android.svg?branch=master)](https://travis-ci.com/bugsnag/bugsnag-android)
-
+ 
 Get comprehensive [Android crash reports](https://www.bugsnag.com/platforms/android/) to quickly debug errors.
 
 Bugsnag's [Android crash reporting](https://www.bugsnag.com/platforms/android/)
