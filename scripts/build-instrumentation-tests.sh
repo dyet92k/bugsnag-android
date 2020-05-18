@@ -1,5 +1,6 @@
 echo Switching to NDK $NDK_VERSION
-mv android-ndk-$NDK_VERSION-linux-x86_64 $ANDROID_HOME/ndk-bundle
-RESULT=$?; if [ $RESULT -ne 0 ]; then exit $RESULT; fi;
+
+export ANDROID_NDK_HOME="${ANDROID_HOME}/android-ndk-${NDK_VERSION}"
+export PATH="${ANDROID_NDK_HOME}:${PATH}"
 
 ./gradlew assembleAndroidTest --stacktrace
