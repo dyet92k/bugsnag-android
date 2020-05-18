@@ -185,6 +185,7 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Nexus 5-4.4"]'
+      NDK_VERSION: "r12b"
     concurrency: 10
     concurrency_group: 'browserstack-app'
 
@@ -197,6 +198,7 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Pixel-7.1"]'
+      NDK_VERSION: "r12b"
     concurrency: 10
     concurrency_group: 'browserstack-app'
 
@@ -209,6 +211,7 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Pixel 3-9.0"]'
+      NDK_VERSION: "r12b"
     concurrency: 10
     concurrency_group: 'browserstack-app'
 
@@ -221,6 +224,7 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Nexus 5-4.4"]'
+      NDK_VERSION: "r16b"
     concurrency: 10
     concurrency_group: 'browserstack-app'
 
@@ -233,6 +237,7 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Nexus 5-4.4"]'
+      NDK_VERSION: "r16b"
     concurrency: 10
     concurrency_group: 'browserstack-app'
 
@@ -245,6 +250,7 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Pixel-7.1"]'
+      NDK_VERSION: "r16b"
     concurrency: 10
     concurrency_group: 'browserstack-app'
 
@@ -257,6 +263,7 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Pixel 3-9.0"]'
+      NDK_VERSION: "r16b"
     concurrency: 10
     concurrency_group: 'browserstack-app'
 
@@ -269,6 +276,7 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Nexus 5-4.4"]'
+      NDK_VERSION: "r19"
     concurrency: 10
     concurrency_group: 'browserstack-app'
 
@@ -281,6 +289,7 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Pixel-7.1"]'
+      NDK_VERSION: "r19"
     concurrency: 10
     concurrency_group: 'browserstack-app'
 
@@ -293,6 +302,7 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Pixel 3-9.0"]'
+      NDK_VERSION: "r19"
     concurrency: 10
     concurrency_group: 'browserstack-app'
 
@@ -305,5 +315,6 @@ steps:
     env:
       APP_LOCATION: "/app/bugsnag-android-core/build/outputs/apk/androidTest/debug/bugsnag-android-core-debug-androidTest.apk"
       INSTRUMENTATION_DEVICES: '["Google Pixel 4-10.0"]'
+      NDK_VERSION: "r21"
     concurrency: 10
     concurrency_group: 'browserstack-app'
