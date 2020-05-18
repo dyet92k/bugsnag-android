@@ -17,6 +17,3 @@ features/filtering_metadata.feature
 features/handled_exception.feature
 features/ignored_reports.feature
 features/in_foreground.feature
-features/load_configuration.feature
-features/meta_data_scenario.feature
-features/native_api.feature
