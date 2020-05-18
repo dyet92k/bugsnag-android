@@ -1,6 +1,3 @@
-features/load_configuration.feature
-features/meta_data_scenario.feature
-features/native_api.feature
 features/native_crash_handling.feature
 features/native_event_tracking.feature
 features/native_on_error.feature
