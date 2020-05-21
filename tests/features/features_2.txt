@@ -1,0 +1,16 @@
+features/native_api.feature
+features/native_crash_handling.feature
+features/native_event_tracking.feature
+features/native_on_error.feature
+features/native_session_tracking.feature
+features/oom.feature
+features/plugin_interface.feature
+features/release_stage.feature
+features/runtime_versions.feature
+features/session_stopping.feature
+features/session_tracking.feature
+features/stackoverflow.feature
+features/strict_mode.feature
+features/trimmed_stacktrace.feature
+features/unhandled_exception.feature
+features/user.feature
